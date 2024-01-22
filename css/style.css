@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.hero{
+    img{
+        height: 6   00px;
+        
+    }
+}
+p{
+    margin-bottom: 0;
+}
+.products__list{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products__item{
+    margin-top: 40px;
+}
+.card__img{
+    height: 250px;
+    object-fit: contain;
+}
+.card-text{
+    height: 70px;
+ overflow: hidden;
+}
+.card-title{
+    height: 50px;
+    overflow: hidden;
+}
